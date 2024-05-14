@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real base, altura, area, perimetro
+    escreva ("Digite o valor da base: ")
+    leia (base)
+
+    escreva ("Digite o valor da altura: ")
+    leia (altura)
+
+    area = base*altura
+    perimetro = 2*(base+altura)
+
+    escreva("\nA área do retangulo é: ",area)
+
+    escreva ("\nO perímetro do retangulo é: ",perimetro)
+  }
+}
